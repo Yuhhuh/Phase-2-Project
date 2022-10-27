@@ -1,0 +1,47 @@
+.App {
+  text-align: center;
+}
+
+.Edit-Button{
+  position: fixed;
+  border: 150px;
+  right: 100px;
+  margin-top: 10px;
+}
+
+.Main-Pic {
+  background-color: aquamarine;
+  border-radius: 25px;
+  position: center;
+}
+
+.Pic-Holder {
+  background-color:  rgba(250, 180, 119, 0.822);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: darkred;
+}
+
+.Side-Pic-Holder {
+  position: left 100px;
+}
+
+.Main-Author {
+  position: relative;
+  left: 425px;
+  font-size: 18px;
+}
+
+.Main-Title {
+  position: relative;
+  right: 300px;
+  font-size: 40px;
+}
+
+.Main-Description {
+  position: center;
+}
