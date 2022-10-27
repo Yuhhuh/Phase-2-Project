@@ -1,0 +1,25 @@
+{
+  "images": [
+      {
+          "id": 1,
+          "image": "eerietower.png",
+          "imagetitle": "Dark Wizards Tower",
+          "author": "Wysp",
+          "description": "The Tower Where the Dark Wizard Practices Dangerous Experiments"
+      },
+      {
+          "id": 2,
+          "image": "wizardstower.png",
+          "imagetitle": "The Floating Wizards Tower (Day)",
+          "author": "Wysp",
+          "description": "The Afternoons are Quiet at the Wizards Tower"
+      },
+      {
+        "id": 3,
+        "image": "wizardstowernight.png",
+        "imagetitle": "The Floating Wizards Tower (Night)",
+        "author": "Wysp",
+        "description": "During the Nights the Wizard Enjoys the Company of His Books"
+    }
+  ]
+}
