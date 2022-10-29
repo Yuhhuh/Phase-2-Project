@@ -15,7 +15,7 @@ export default function App() {
         <Navbar />
         <Routes>
           <Route path="/" exact element={<GalleryHome />} />
-          <Route path="/imageMain" element={<ImageMain />} />
+          <Route path="images/:id" element={<ImageMain />} />
         </Routes>
       </Router>
     </div>

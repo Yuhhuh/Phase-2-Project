@@ -3,7 +3,7 @@
 }
 
 .Edit-Button{
-  position: fixed;
+  position: absolute;
   border: 150px;
   right: 100px;
   margin-top: 10px;
@@ -37,7 +37,7 @@
 }
 
 .Main-Title {
-  position: relative;
+  position: center;
   right: 300px;
   font-size: 40px;
 }
