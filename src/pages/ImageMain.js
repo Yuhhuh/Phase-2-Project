@@ -1,6 +1,7 @@
 import "./css/ImageMain.css";
 import React, { useState, useEffect } from "react";
 import { useParams } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 //import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
@@ -29,9 +30,8 @@ function ImageMain() {
 
   return (
     <div className="App">
-      <button className="Edit-Button" type="button">
-        Edit
-      </button>
+     <Link to={`/ImageEdit/${id}`} >Edit
+      </Link>
       <header className="Pic-Holder">
         <p className="Main-Title">{picData.imagetitle}</p>
         <img

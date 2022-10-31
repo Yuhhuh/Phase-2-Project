@@ -20,8 +20,9 @@ export default function GalleryHome() {
   return (
     <div className="gallery">
       <h1>Gallery</h1>
+      <p className="instruc"> Click the Images Below to Enlarge.</p>
       <div>
-        <ImageList sx={{ width: 1000, height: 1000 }} variant="masonry" gap={10} rowHeight={150}>
+        <ImageList sx={{ width: 1000, height: 1000 }} variant="masonry" gap={100} rowHeight={150}>
           {imageFiles.map((pic) => (
             <ImageListItem key={pic.image}>
               <Link to={`images/${pic.id}`}>

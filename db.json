@@ -1,53 +1,60 @@
 {
   "images": [
-      {
-          "id": 1,
-          "image": "eerietower.png",
-          "imagetitle": "Dark Wizards Tower",
-          "author": "Wysp",
-          "description": "The Tower Where the Dark Wizard Practices Dangerous Experiments"
-      },
-      {
-          "id": 2,
-          "image": "wizardstower.png",
-          "imagetitle": "The Floating Wizards Tower (Day)",
-          "author": "Wysp",
-          "description": "The Afternoons are Quiet at the Wizards Tower"
-      },
-      {
-        "id": 3,
-        "image": "wizardstowernight.png",
-        "imagetitle": "The Floating Wizards Tower (Night)",
-        "author": "Wysp",
-        "description": "During the Nights the Wizard Enjoys the Company of His Books"
-      },
-      {
-        "id": 4,
-        "image": "dndteaser.PNG",
-        "imagetitle": "The Dark Wizards Gathering",
-        "author": "Wysp",
-        "description": "Deep within the Abandoned Crystal Mines, the Dark Wizard Plots"
-      },
-      {
-        "id": 5,
-        "image": "dndambush1.png",
-        "imagetitle": "Mercenary Ambush",
-        "author": "Wysp",
-        "description": "The Hired Mercenaries Lie in Wait for the Preppy Adventurers"
-      },
-      {
-        "id": 6,
-        "image": "dndambush2.png",
-        "imagetitle": "Mercenary Ambush(2)",
-        "author": "Wysp",
-        "description": "Deeper in the Mines the Mercenaries Guard a Spiteful Servant"
-      },
-      {
-        "id": 7,
-        "image": "dndservant.png",
-        "imagetitle": "The Servant",
-        "author": "Wysp",
-        "description": "At the Deepest Depths of the Mine, a Lowly Servant Awaits the Dark Lords Next Command"
-      }
+    {
+      "id": 1,
+      "author": "Wysp",
+      "image": "eerietower.png",
+      "description": "The Tower Where the Dark Wizard Practices Dangerous Experiments",
+      "imagetitle": "Dark Wizards Tower"
+    },
+    {
+      "id": 2,
+      "image": "wizardstower.png",
+      "imagetitle": "The Floating Wizards Tower (Day)",
+      "author": "Wysp",
+      "description": "The Afternoons are Quiet at the Wizards Tower"
+    },
+    {
+      "id": 3,
+      "image": "wizardstowernight.png",
+      "imagetitle": "The Floating Wizards Tower (Night)",
+      "author": "Wysp",
+      "description": "During the Nights the Wizard Enjoys the Company of His Books"
+    },
+    {
+      "id": 4,
+      "image": "dndteaser.PNG",
+      "imagetitle": "The Dark Wizards Gathering",
+      "author": "Wysp",
+      "description": "Deep within the Abandoned Crystal Mines, the Dark Wizard Plots"
+    },
+    {
+      "id": 5,
+      "author": "Wysper",
+      "image": "dndambush1.png",
+      "description": "The Hired Mercenaries Lie in Wait for the Preppy Adventurers",
+      "imagetitle": "Mercenary Ambush"
+    },
+    {
+      "id": 6,
+      "image": "dndambush2.png",
+      "imagetitle": "Mercenary Ambush(2)",
+      "author": "Wysp",
+      "description": "Deeper in the Mines the Mercenaries Guard a Spiteful Servant"
+    },
+    {
+      "id": 7,
+      "image": "dndservant.png",
+      "imagetitle": "The Servant",
+      "author": "Wysp",
+      "description": "At the Deepest Depths of the Mine, a Lowly Servant Awaits the Dark Lords Next Command"
+    },
+    {
+      "id": 8,
+      "image": "towerwatch.png",
+      "imagetitle": "Tower Watch",
+      "author": "Wysp",
+      "description": "The Guard Keeps a Tight Watch for the People Below."
+    }
   ]
 }
