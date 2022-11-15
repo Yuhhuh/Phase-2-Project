@@ -3,11 +3,7 @@ import React, { useState, useEffect } from "react";
 import { useParams } from "react-router-dom";
 import { Link } from "react-router-dom";
 
-//import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-
 function ImageMain() {
-  //const [isLoaded, setIsLoaded] = useState(false);
-  //const [clickEdit, setClickEdit] = useState("");
   const [picData, setPicData] = useState([]);
   const { id } = useParams();
 
@@ -21,17 +17,12 @@ function ImageMain() {
       .then((data) => {
         setPicData(data);
         console.log(data.image);
-        //setIsLoaded(true);
       });
-    //.then(imageNav)
   }, [id]);
 
-  //if (!isLoaded) return <p>Loading...</p>
 
   return (
     <div className="App">
-     <Link to={`/ImageEdit/${id}`} >Edit
-      </Link>
       <header className="Pic-Holder">
         <p className="Main-Title">{picData.imagetitle}</p>
         <img

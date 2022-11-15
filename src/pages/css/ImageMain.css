@@ -9,6 +9,15 @@
   margin-top: 10px;
 }
 
+.add {
+  position: center;
+  margin-top: 60px;
+}
+
+.message {
+  font-size: 50px;
+}
+
 .Main-Pic {
   background-color: aquamarine;
   border-radius: 25px;

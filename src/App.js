@@ -1,27 +1,41 @@
-import React from "react";
 import "./styles.css";
+import React, { useState, useEffect, useRef } from "react";
 
 import Navbar from "./components/Navbar";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 
 // PAGES
-import GalleryHome from "./pages/GalleryHome";
 import ImageMain from "./pages/ImageMain";
-import ImageEdit from "./pages/ImageEdit";
+import ImageAdd from "./pages/ImageAdd";
+import AboutPage from "./pages/AboutPage";
+
+import "./pages/css/styles.css";
+import GalleryHome from "./pages/GalleryHome";
 
 export default function App() {
+  const [imageFiles, setImages] = useState([]);
+
+  useEffect(() => {
+    fetch("http://localhost:3000/images/")
+      .then((response) => {
+        return response.json();
+      })
+      .then((data) => {
+        setImages(data);
+      });
+  }, []);
+
   return (
     <div className="App">
       <Router>
         <Navbar />
         <Routes>
-          <Route path="/" exact element={<GalleryHome />} />
+          <Route exact path="/" element={<GalleryHome />} />
           <Route path="images/:id" element={<ImageMain />} />
-          <Route path="/imageEdit/:id" element={<ImageEdit />} />
+          <Route path="/:id" element={<ImageAdd />} />
+          <Route path="/AboutPage" element={<AboutPage />} />
         </Routes>
       </Router>
     </div>
   );
 }
-
-
