@@ -2,6 +2,11 @@
 
 This Project is a Gallery for any screenshots I take in the games I play.
 
+To Run this project you will have to run the following in your terminal;
+- json-server --watch db.json
+Then
+- npm run start, if it asks to run on localhost:3001 choose yes
+
 # Goals
 - Have a Functioning gallery home page.
 - Allow the user to click on an image and have it link to a Larger Display.
@@ -13,3 +18,4 @@ This Project is a Gallery for any screenshots I take in the games I play.
 
 # Images
 - All images were taken and provided by myself.
+- Some of the buildings within the images were built by my friends, however they have requested to remain anonymous
