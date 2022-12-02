@@ -18,6 +18,11 @@ body {
   font-size: 3rem;
 }
 
+.galleryName{
+  font-size: 20px;
+  color: darkred;
+}
+
 .instruc{
   font-size: 25px;
 }

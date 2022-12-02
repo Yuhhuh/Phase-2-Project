@@ -54,3 +54,26 @@
 .Main-Description {
   position: center;
 }
+
+.message {
+  margin-bottom: 30px;
+}
+
+.authorinput {
+  margin: 35px;
+}
+
+.inameinput {
+  margin: 35px;
+}
+
+.instructions {
+  font-size: 12px;
+  opacity: 0;
+}
+
+.imageinput:hover + .instructions {
+  opacity: 1;
+  display: block;
+  color: black;
+}
