@@ -1,8 +1,9 @@
 import "./css/ImageMain.css";
 import React, { useState, useRef } from "react";
 import { useNavigate } from "react-router-dom";
+import Button from "@mui/material/Button";
 
-function ImageAdd() {
+function ImageAdd({setImageFiles}) {
   const [isLoaded, setIsLoaded] = useState(false);
   const [author, setAuthor] = useState("");
   const [image, setImage] = useState("");
@@ -38,6 +39,7 @@ function ImageAdd() {
         setDescription("");
         setImage("");
         setAuthor("");
+        setImageFiles((prevstate) => [...prevstate, resJson])
         setMessage("Successfully created a new record");
       } else {
         setMessage("Error while creating new record");
@@ -55,17 +57,20 @@ function ImageAdd() {
             {message ? <p>{message}</p> : "Adding new image"}
           </div>
           <form onSubmit={handleSubmit}>
-            <label>
-              Author name:
-              <input
-                type="text"
-                name="author"
-                value={author}
-                placeholder="Author"
-                onChange={(e) => setAuthor(e.target.value)}
-              />
-            </label>
-            <p>
+            <p className="authorinput">
+              <label>
+                Author name:
+                <input
+                  type="text"
+                  name="author"
+                  value={author}
+                  placeholder="Author"
+                  onChange={(e) => setAuthor(e.target.value)}
+                />
+              </label>
+            </p>
+
+            <p className="imageinput">
               <label>
                 Image name:
                 <input
@@ -77,8 +82,12 @@ function ImageAdd() {
                 />
               </label>
             </p>
+            <p className="instructions">
+              The Image Name Must Match The Names of The Files Within the
+              public/images folder
+            </p>
             <p>
-              <label>
+              <label className="descinput">
                 Description:
                 <input
                   type="text"
@@ -89,18 +98,22 @@ function ImageAdd() {
                 />
               </label>
             </p>
-            <label>
-              Image Name:
-              <input
-                type="text"
-                name="imagetitle"
-                value={imageTitle}
-                placeholder="Title"
-                onChange={(e) => setImageTitle(e.target.value)}
-              />
-            </label>
+            <p className="inameinput">
+              <label>
+                Image Name:
+                <input
+                  type="text"
+                  name="imagetitle"
+                  value={imageTitle}
+                  placeholder="Title"
+                  onChange={(e) => setImageTitle(e.target.value)}
+                />
+              </label>
+            </p>
             <p>
-              <button type="Submit">Submit</button>
+              <Button variant="contained" type="Submit">
+                Submit
+              </Button>
             </p>
             <p></p>
           </form>
