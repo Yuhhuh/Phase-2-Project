@@ -13,7 +13,7 @@ export const SidebarData = [
   },
   {
     title: "Add Image",
-    path: "/ImageAdd",
+    path: "images/new",
     icon: <IoIcons.IoIosAdd />,
     cName: "nav-text"
   },
