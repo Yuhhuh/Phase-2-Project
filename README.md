@@ -1,4 +1,4 @@
-# Phase 2 Project: Video Screen Shot Gallery
+# Phase 2 Project: Wyspering Wyllows
 
 The Main Function of this website is to display screenshots that I have taken in games, such as, Minecraft and Talespire
 
@@ -14,7 +14,7 @@ The Main Function of this website is to display screenshots that I have taken in
   The Image add page allows you to call a specific file Located within the public/images and create a Name, Author, and Description based on your desired picture (the picture must be added to the public/images file in order to show up)
 
   Once you have added an image and fulfilled the required fields, you can navigate back to the Gallery to see your new Image.
-  
+
   I did not want the Page to continue getting longer and longer, so the gallery scrolls to the side. If you are unable to see your new Image at first, you may have to scroll to the side on the gallery.
 
 # Set Up
